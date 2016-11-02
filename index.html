@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>JavaScript Intro</title>
+  </head>
+  <body>
+      <h1>Intro to JavaScript</h1>
+
+      <script type="text/javascript">
+        var message = ("Hello World!");
+        console.log(message);
+
+        var diffMessage = ("What Up Robbie?!?!");
+        console.log(diffMessage);
+
+        var number = (22);
+        console.log(number);
+
+        console.log("My favorite number/jersey number is " + number);
+
+        var favoriteStuff = ["Tarantino Movies", "New York Yankees", "Schindler's List", "Godfather Trilogy"];
+        console.log(favoriteStuff);
+
+        favoriteStuff.push("USC Gamecocks", "Ender's Games", "Game of Thrones", "Fargo(TV show)");
+        console.log(favoriteStuff);
+
+        for (var i = 0; i < favoriteStuff.length; i++) {
+          console.log(favoriteStuff[i]);
+        }
+
+        var sentence = "Schlitz four dollar toast godard truffaut bespoke neutra artisan pop-up. Chia keytar single-origin coffee sustainable disrupt.";
+        var sentenceArray = sentence.split(" ");
+
+        for (var x = 0; x < sentenceArray.length; x++) {
+          var word = sentenceArray[x];
+
+          if (word.length == 6) {
+            console.log(word);
+          }
+
+        }
+
+    
+
+      </script>
+  </body>
+</html>
